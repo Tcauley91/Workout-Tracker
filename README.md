@@ -11,4 +11,4 @@ Workout tacker, want a better way to keep track of your workouts? Perhaps see re
 
 View my deployed application here:
 
-<a href="https://enigmatic-castle-34609.herokuapp.com">Heroku Eat Da Burger</a>
+<a href="https://immense-depths-94663.herokuapp.com/>Heroku Workout Tracker</a>
