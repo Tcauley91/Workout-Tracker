@@ -14,10 +14,10 @@ app.use(express.static("public"));
 
 // Heroku connection
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
-mongoose.connect(MONGODB_URI, {
-    useNewUrlParser: true,
-    useFindAndModify: false
-});
+mongoose.connect(MONGODB_URI, 
+    // useNewUrlParser: true,
+    // useFindAndModify: false
+);
 
 // Creating Routes
 require("./routes/api")(app);
