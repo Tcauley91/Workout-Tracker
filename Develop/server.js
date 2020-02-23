@@ -16,9 +16,9 @@ app.use(express.static("public"));
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://<workoutDB>:<Brandon123>@ds061711.mlab.com:61711/heroku_fwf0xnxk";
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
-    useFindAndModify: false
+    useFindAndModify: false,
+    useUnifiedTopology: true 
 });
-
 // Creating Routes
 require("./routes/api")(app);
 require("./routes/htmlRoutes")(app);
