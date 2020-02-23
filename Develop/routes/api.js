@@ -3,7 +3,7 @@ const Workout = require("../models/workout.js");
 module.exports = function (app) {
 
     app.get("/api/workouts", function (req, res) {
-        Workout.find()
+        Workout.find({})
             .then(data => {
                 res.json(data)
             })
@@ -36,6 +36,7 @@ module.exports = function (app) {
     });
 
     // API for stats population
+    
     app.get("/api/workouts/range", function (req, res) {
         Workout.find()
             .then(data => {

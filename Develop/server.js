@@ -12,8 +12,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// db mongo
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
+// Heroku connection
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useFindAndModify: false
@@ -22,6 +22,7 @@ mongoose.connect(MONGODB_URI, {
 // Creating Routes
 require("./routes/api")(app);
 require("./routes/htmlRoutes")(app);
+
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
