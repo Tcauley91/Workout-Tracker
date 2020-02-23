@@ -11,4 +11,4 @@ Workout tacker, want a better way to keep track of your workouts? Perhaps see re
 
 View my deployed application here:
 
-<a href="https://immense-depths-94663.herokuapp.com/>Heroku Workout Tracker</a>
+<a href="https://immense-depths-94663.herokuapp.com/">Heroku Workout Tracker</a>
