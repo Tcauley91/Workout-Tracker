@@ -254,10 +254,12 @@ button {
 
 #toast.success {
   right: 10px;
-  background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  background-color: hsl(32.9, 100%, 50%);
+  color: hsl(32.9, 4.1%, 2.2%);
   transition: all 0.5s;
 }
+
+
 .workout-type,
 form .cardio-form div,
 form .resistance-form div {
@@ -368,8 +370,8 @@ form > button {
 }
 
 #toast.success {
-  background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  background-color: hsl(32.9, 100%, 50%);
+  color: hsl(32.9, 4.1%, 2.2%);
 }
 
 .prev-workout h3 {
@@ -430,6 +432,7 @@ form > button {
 
 .ui.positive.button {
   background-color: orange
+
 }
 
 .buttons .ui.button:nth-child(2) {
