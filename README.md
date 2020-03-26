@@ -30,7 +30,7 @@ These graphs are pupulated real time, all data is stored in MongoDB. Here you ca
 
 ## Technologies
 
-Bootstrap for CSS and Javascript were included as additional libraries in this project.
+Bootstrap for CSS and Javascript were included as additional libraries in this Node.JS project.
 
 
 View my deployed application here:
