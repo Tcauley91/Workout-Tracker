@@ -1,14 +1,14 @@
 # Workout-Tracker
 
-##User Story
+## User Story
 
 As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
-##Business Context
+## Business Context
 A consumer will reach their fitness goals quicker when they track their workout progress.
 
 
-##Summary
+## Summary
 Workout tacker, want a better way to keep track of your workouts? Perhaps see real data of what you're actually doing in the gym? This workout tracker makes it easy to visualize how much you do or do not do. From the landing page you can view your latest workout and add to it, or you can start a new workout by hitting the new workout button. At the top, click dash board and see where all of your time working out is spent via graphs.
 
 
