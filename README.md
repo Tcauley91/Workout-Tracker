@@ -28,6 +28,10 @@ These graphs are pupulated real time, all data is stored in MongoDB. Here you ca
 
 <img src="./assets/img/workoutdash.jpg" alt="Screenshot"/>
 
+## Technologies
+
+Bootstrap for CSS and Javascript were included as additional libraries in this project.
+
 
 View my deployed application here:
 
