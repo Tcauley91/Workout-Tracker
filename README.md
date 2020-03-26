@@ -32,7 +32,20 @@ These graphs are pupulated real time, all data is stored in MongoDB. Here you ca
 
 Bootstrap for CSS and Javascript were included as additional libraries in this Node.JS project.
 
+# Available Scripts & to run the application from your computer once you have cloned the repo:
+In the project directory, you can run:
 
+## 'npm install'
+This will install all dependencies in order to run the React Application.
+
+## 'npm start'
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
+## View
 View my deployed application here:
 
 <a href="https://secure-retreat-62883.herokuapp.com/?id=5e52989c5665690017b4c913">Heroku Workout Tracker</a>
