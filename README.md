@@ -16,31 +16,17 @@ Workout tacker, want a better way to keep track of your workouts? Perhaps see re
 ## How It Works
 When the users first access the site, the user will be shown a summary of their last workout. They then can either continue a previous workout or start a new workout. Once the decision has been made to either continue a workout or start a new one, the user can then select the type of workout and enter in the details of the workout to follow. In the top left corner is a link to view statistics of the workouts & to see how they are either delegating their exercises. 
 
-<img src="./assets/img/workoutdash.jpg" alt="Screenshot"/>
-
-
-
+## Input fields
 Users are given a few fields to fill out, and a number of consequences will occur when certain buttons are pressed. The possible input areas are:
 
 <img src="./assets/img/resistance.jpg" alt="Screenshot"/>
 
 <img src="./assets/img/cardio.jpg" alt="Screenshot"/>
 
+## Graphs.
+These graphs are pupulated real time, all data is stored in MongoDB. Here you can really see what you are focusing on while in the gym.
 
-
-##Price and Tip values.
-The number of individuals to split the bill by
-Payment through cash, credit, or check.
-If credit is selected, additional menus prompting the user to input their credit card and CVV number will be given. A validate button with the user's card information will then appear to allow for the user to check if their card works
-
-It just checks to make sure that the format is valid - make sure the dropdown menu matches your card provider (i.e. Visa, MasterCard)if you want to try it out!
-
-
-
-
-
-
-
+<img src="./assets/img/workoutdash.jpg" alt="Screenshot"/>
 
 
 View my deployed application here:
