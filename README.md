@@ -29,8 +29,13 @@ These graphs are pupulated real time, all data is stored in MongoDB. Here you ca
 <img src="./assets/img/workoutdash.jpg" alt="Screenshot"/>
 
 ## Technologies
+<ul>
+<li>Javascript</li>
+<li>Node.JS</li>
+<li>MongoDB</li>
+<li>Bootstrap for CSS Framework</li>
+</ul>
 
-Bootstrap for CSS and Javascript were included as additional libraries in this Node.JS project.
 
 # Available Scripts & to run the application from your computer once you have cloned the repo:
 In the project directory, you can run:
